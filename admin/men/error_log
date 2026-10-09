@@ -1,0 +1,108 @@
+[29-Jun-2026 00:48:58 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function log_action() in /home/xblacker/gym.xblacker.ir/admin/men/edit.php:153
+Stack trace:
+#0 {main}
+  thrown in /home/xblacker/gym.xblacker.ir/admin/men/edit.php on line 153
+[29-Jun-2026 00:59:39 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function log_action() in /home/xblacker/gym.xblacker.ir/admin/men/edit.php:153
+Stack trace:
+#0 {main}
+  thrown in /home/xblacker/gym.xblacker.ir/admin/men/edit.php on line 153
+[06-Jul-2026 14:01:38 Asia/Tehran] PHP Notice:  Array to string conversion in /home/xblacker/gym.xblacker.ir/admin/men/renew.php on line 71
+[06-Jul-2026 14:01:38 Asia/Tehran] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'xblacker_gym.logs' doesn't exist in /home/xblacker/gym.xblacker.ir/includes/log_functions.php:24
+Stack trace:
+#0 /home/xblacker/gym.xblacker.ir/includes/log_functions.php(24): PDOStatement->execute(Array)
+#1 /home/xblacker/gym.xblacker.ir/admin/men/renew.php(76): log_action('renew_member', '\xD8\xA7\xD8\xA8\xD9\x88\xD8\xA7\xD9\x84\xD9\x81\xD8\xB6\xD9...', '1 \xD9\x85\xD8\xA7\xD9\x87 \xD8\xAA\xD9\x85\xD8\xAF...')
+#2 {main}
+  thrown in /home/xblacker/gym.xblacker.ir/includes/log_functions.php on line 24
+[11-Jul-2026 20:54:08 Asia/Tehran] PHP Notice:  Array to string conversion in /home/xblacker/gym.xblacker.ir/admin/men/renew.php on line 71
+[11-Jul-2026 20:54:08 Asia/Tehran] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'xblacker_gym.logs' doesn't exist in /home/xblacker/gym.xblacker.ir/includes/log_functions.php:24
+Stack trace:
+#0 /home/xblacker/gym.xblacker.ir/includes/log_functions.php(24): PDOStatement->execute(Array)
+#1 /home/xblacker/gym.xblacker.ir/admin/men/renew.php(76): log_action('renew_member', '\xD8\xA7\xD8\xB3\xD9\x85\xD8\xA7\xD8\xB9\xDB\x8C\xD9\x84 ...', '1 \xD9\x85\xD8\xA7\xD9\x87 \xD8\xAA\xD9\x85\xD8\xAF...')
+#2 {main}
+  thrown in /home/xblacker/gym.xblacker.ir/includes/log_functions.php on line 24
+[11-Jul-2026 20:55:51 Asia/Tehran] PHP Notice:  Array to string conversion in /home/xblacker/gym.xblacker.ir/admin/men/renew.php on line 71
+[11-Jul-2026 20:55:51 Asia/Tehran] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'xblacker_gym.logs' doesn't exist in /home/xblacker/gym.xblacker.ir/includes/log_functions.php:24
+Stack trace:
+#0 /home/xblacker/gym.xblacker.ir/includes/log_functions.php(24): PDOStatement->execute(Array)
+#1 /home/xblacker/gym.xblacker.ir/admin/men/renew.php(76): log_action('renew_member', '\xD8\xA7\xD8\xB3\xD9\x85\xD8\xA7\xD8\xB9\xDB\x8C\xD9\x84 ...', '1 \xD9\x85\xD8\xA7\xD9\x87 \xD8\xAA\xD9\x85\xD8\xAF...')
+#2 {main}
+  thrown in /home/xblacker/gym.xblacker.ir/includes/log_functions.php on line 24
+[11-Jul-2026 20:55:53 Asia/Tehran] PHP Notice:  Array to string conversion in /home/xblacker/gym.xblacker.ir/admin/men/renew.php on line 71
+[11-Jul-2026 20:55:53 Asia/Tehran] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'xblacker_gym.logs' doesn't exist in /home/xblacker/gym.xblacker.ir/includes/log_functions.php:24
+Stack trace:
+#0 /home/xblacker/gym.xblacker.ir/includes/log_functions.php(24): PDOStatement->execute(Array)
+#1 /home/xblacker/gym.xblacker.ir/admin/men/renew.php(76): log_action('renew_member', '\xD8\xA7\xD8\xB3\xD9\x85\xD8\xA7\xD8\xB9\xDB\x8C\xD9\x84 ...', '1 \xD9\x85\xD8\xA7\xD9\x87 \xD8\xAA\xD9\x85\xD8\xAF...')
+#2 {main}
+  thrown in /home/xblacker/gym.xblacker.ir/includes/log_functions.php on line 24
+[11-Jul-2026 21:01:40 Asia/Tehran] PHP Notice:  Array to string conversion in /home/xblacker/gym.xblacker.ir/admin/men/renew.php on line 71
+[11-Jul-2026 21:01:40 Asia/Tehran] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'xblacker_gym.logs' doesn't exist in /home/xblacker/gym.xblacker.ir/includes/log_functions.php:24
+Stack trace:
+#0 /home/xblacker/gym.xblacker.ir/includes/log_functions.php(24): PDOStatement->execute(Array)
+#1 /home/xblacker/gym.xblacker.ir/admin/men/renew.php(76): log_action('renew_member', '\xD8\xA7\xD8\xA8\xD9\x86\xD9\x88\xD8\xA8\xD8\xA7\xD9\x86\xD8...', '1 \xD9\x85\xD8\xA7\xD9\x87 \xD8\xAA\xD9\x85\xD8\xAF...')
+#2 {main}
+  thrown in /home/xblacker/gym.xblacker.ir/includes/log_functions.php on line 24
+[12-Jul-2026 20:01:22 Asia/Tehran] PHP Notice:  Array to string conversion in /home/xblacker/gym.xblacker.ir/admin/men/renew.php on line 71
+[12-Jul-2026 20:01:22 Asia/Tehran] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'xblacker_gym.logs' doesn't exist in /home/xblacker/gym.xblacker.ir/includes/log_functions.php:24
+Stack trace:
+#0 /home/xblacker/gym.xblacker.ir/includes/log_functions.php(24): PDOStatement->execute(Array)
+#1 /home/xblacker/gym.xblacker.ir/admin/men/renew.php(76): log_action('renew_member', '\xD8\xA7\xD8\xA8\xD9\x86\xD9\x88\xD8\xA8\xD8\xA7\xD9\x86\xD8...', '3 \xD9\x85\xD8\xA7\xD9\x87 \xD8\xAA\xD9\x85\xD8\xAF...')
+#2 {main}
+  thrown in /home/xblacker/gym.xblacker.ir/includes/log_functions.php on line 24
+[12-Jul-2026 20:11:46 Asia/Tehran] PHP Notice:  Array to string conversion in /home/xblacker/gym.xblacker.ir/admin/men/renew.php on line 71
+[12-Jul-2026 20:11:46 Asia/Tehran] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'xblacker_gym.logs' doesn't exist in /home/xblacker/gym.xblacker.ir/includes/log_functions.php:24
+Stack trace:
+#0 /home/xblacker/gym.xblacker.ir/includes/log_functions.php(24): PDOStatement->execute(Array)
+#1 /home/xblacker/gym.xblacker.ir/admin/men/renew.php(77): log_action('renew_member', '\xD8\xA7\xD8\xA8\xD9\x86\xD9\x88\xD8\xA8\xD8\xA7\xD9\x86\xD8...', '1 \xD9\x85\xD8\xA7\xD9\x87 \xD8\xAA\xD9\x85\xD8\xAF...')
+#2 {main}
+  thrown in /home/xblacker/gym.xblacker.ir/includes/log_functions.php on line 24
+[12-Jul-2026 21:17:14 Asia/Tehran] PHP Notice:  Array to string conversion in /home/xblacker/gym.xblacker.ir/admin/men/renew.php on line 71
+[12-Jul-2026 21:22:12 Asia/Tehran] PHP Notice:  Array to string conversion in /home/xblacker/gym.xblacker.ir/admin/men/renew.php on line 71
+[12-Jul-2026 21:25:27 Asia/Tehran] PHP Notice:  Array to string conversion in /home/xblacker/gym.xblacker.ir/admin/men/renew.php on line 80
+[12-Jul-2026 21:25:32 Asia/Tehran] PHP Notice:  Array to string conversion in /home/xblacker/gym.xblacker.ir/admin/men/renew.php on line 80
+[12-Jul-2026 21:52:06 Asia/Tehran] PHP Parse error:  syntax error, unexpected end of file in /home/xblacker/gym.xblacker.ir/includes/functions.php on line 75
+[15-Jul-2026 19:37:05 Asia/Tehran] PHP Notice:  Array to string conversion in /home/xblacker/gym.xblacker.ir/admin/men/edit.php on line 131
+[15-Jul-2026 19:37:35 Asia/Tehran] PHP Notice:  Array to string conversion in /home/xblacker/gym.xblacker.ir/admin/men/edit.php on line 131
+[15-Jul-2026 19:40:25 Asia/Tehran] PHP Notice:  Array to string conversion in /home/xblacker/gym.xblacker.ir/admin/men/edit.php on line 131
+[15-Jul-2026 19:40:33 Asia/Tehran] PHP Notice:  Array to string conversion in /home/xblacker/gym.xblacker.ir/admin/men/edit.php on line 131
+[15-Jul-2026 19:40:52 Asia/Tehran] PHP Notice:  Array to string conversion in /home/xblacker/gym.xblacker.ir/admin/men/edit.php on line 131
+[15-Jul-2026 19:41:10 Asia/Tehran] PHP Notice:  Array to string conversion in /home/xblacker/gym.xblacker.ir/admin/men/edit.php on line 131
+[15-Jul-2026 19:42:27 Asia/Tehran] PHP Notice:  Array to string conversion in /home/xblacker/gym.xblacker.ir/admin/men/edit.php on line 131
+[15-Jul-2026 19:42:32 Asia/Tehran] PHP Notice:  Array to string conversion in /home/xblacker/gym.xblacker.ir/admin/men/edit.php on line 131
+[15-Jul-2026 19:42:36 Asia/Tehran] PHP Notice:  Array to string conversion in /home/xblacker/gym.xblacker.ir/admin/men/edit.php on line 131
+[15-Jul-2026 19:42:39 Asia/Tehran] PHP Notice:  Array to string conversion in /home/xblacker/gym.xblacker.ir/admin/men/edit.php on line 131
+[15-Jul-2026 19:42:45 Asia/Tehran] PHP Notice:  Array to string conversion in /home/xblacker/gym.xblacker.ir/admin/men/edit.php on line 131
+[15-Jul-2026 19:42:54 Asia/Tehran] PHP Notice:  Array to string conversion in /home/xblacker/gym.xblacker.ir/admin/men/edit.php on line 131
+[15-Jul-2026 19:42:59 Asia/Tehran] PHP Notice:  Array to string conversion in /home/xblacker/gym.xblacker.ir/admin/men/edit.php on line 131
+[15-Jul-2026 19:43:04 Asia/Tehran] PHP Notice:  Array to string conversion in /home/xblacker/gym.xblacker.ir/admin/men/edit.php on line 131
+[15-Jul-2026 19:43:10 Asia/Tehran] PHP Notice:  Array to string conversion in /home/xblacker/gym.xblacker.ir/admin/men/edit.php on line 131
+[15-Jul-2026 19:43:14 Asia/Tehran] PHP Notice:  Array to string conversion in /home/xblacker/gym.xblacker.ir/admin/men/edit.php on line 131
+[15-Jul-2026 19:43:21 Asia/Tehran] PHP Notice:  Array to string conversion in /home/xblacker/gym.xblacker.ir/admin/men/edit.php on line 131
+[15-Jul-2026 19:43:28 Asia/Tehran] PHP Notice:  Array to string conversion in /home/xblacker/gym.xblacker.ir/admin/men/edit.php on line 131
+[15-Jul-2026 19:43:36 Asia/Tehran] PHP Notice:  Array to string conversion in /home/xblacker/gym.xblacker.ir/admin/men/edit.php on line 131
+[15-Jul-2026 19:43:37 Asia/Tehran] PHP Notice:  Array to string conversion in /home/xblacker/gym.xblacker.ir/admin/men/edit.php on line 131
+[15-Jul-2026 19:43:43 Asia/Tehran] PHP Notice:  Array to string conversion in /home/xblacker/gym.xblacker.ir/admin/men/edit.php on line 131
+[15-Jul-2026 19:43:48 Asia/Tehran] PHP Notice:  Array to string conversion in /home/xblacker/gym.xblacker.ir/admin/men/edit.php on line 131
+[15-Jul-2026 19:43:59 Asia/Tehran] PHP Notice:  Array to string conversion in /home/xblacker/gym.xblacker.ir/admin/men/edit.php on line 131
+[15-Jul-2026 19:44:08 Asia/Tehran] PHP Notice:  Array to string conversion in /home/xblacker/gym.xblacker.ir/admin/men/edit.php on line 131
+[15-Jul-2026 19:44:17 Asia/Tehran] PHP Notice:  Array to string conversion in /home/xblacker/gym.xblacker.ir/admin/men/edit.php on line 131
+[15-Jul-2026 19:44:33 Asia/Tehran] PHP Notice:  Array to string conversion in /home/xblacker/gym.xblacker.ir/admin/men/edit.php on line 131
+[15-Jul-2026 19:45:33 Asia/Tehran] PHP Notice:  Array to string conversion in /home/xblacker/gym.xblacker.ir/admin/men/edit.php on line 131
+[15-Jul-2026 19:45:40 Asia/Tehran] PHP Notice:  Array to string conversion in /home/xblacker/gym.xblacker.ir/admin/men/edit.php on line 131
+[18-Jul-2026 20:42:47 Asia/Tehran] PHP Notice:  Array to string conversion in /home/xblacker/gym.xblacker.ir/admin/men/edit.php on line 131
+[18-Jul-2026 20:42:52 Asia/Tehran] PHP Notice:  Array to string conversion in /home/xblacker/gym.xblacker.ir/admin/men/edit.php on line 131
+[18-Jul-2026 20:43:15 Asia/Tehran] PHP Notice:  Array to string conversion in /home/xblacker/gym.xblacker.ir/admin/men/edit.php on line 131
+[18-Jul-2026 20:44:28 Asia/Tehran] PHP Notice:  Array to string conversion in /home/xblacker/gym.xblacker.ir/admin/men/edit.php on line 131
+[23-Jul-2026 13:25:01 Asia/Tehran] PHP Notice:  Array to string conversion in /home/xblacker/gym.xblacker.ir/admin/men/edit.php on line 131
+[23-Jul-2026 13:25:04 Asia/Tehran] PHP Notice:  Array to string conversion in /home/xblacker/gym.xblacker.ir/admin/men/edit.php on line 131
+[23-Jul-2026 13:26:41 Asia/Tehran] PHP Notice:  Array to string conversion in /home/xblacker/gym.xblacker.ir/admin/men/edit.php on line 131
+[23-Jul-2026 15:33:01 Asia/Tehran] PHP Notice:  Array to string conversion in /home/xblacker/gym.xblacker.ir/admin/men/edit.php on line 131
+[23-Jul-2026 15:34:32 Asia/Tehran] PHP Notice:  Array to string conversion in /home/xblacker/gym.xblacker.ir/admin/men/edit.php on line 131
+[25-Jul-2026 19:03:05 Asia/Tehran] PHP Notice:  Array to string conversion in /home/xblacker/gym.xblacker.ir/admin/men/edit.php on line 131
+[25-Jul-2026 20:40:49 Asia/Tehran] PHP Notice:  Array to string conversion in /home/xblacker/gym.xblacker.ir/admin/men/edit.php on line 131
+[25-Jul-2026 21:40:58 Asia/Tehran] PHP Notice:  Array to string conversion in /home/xblacker/gym.xblacker.ir/admin/men/edit.php on line 131
+[26-Jul-2026 20:51:45 Asia/Tehran] PHP Notice:  Array to string conversion in /home/xblacker/gym.xblacker.ir/admin/men/edit.php on line 131
+[26-Jul-2026 20:51:47 Asia/Tehran] PHP Notice:  Array to string conversion in /home/xblacker/gym.xblacker.ir/admin/men/edit.php on line 131
+[26-Jul-2026 20:52:34 Asia/Tehran] PHP Notice:  Array to string conversion in /home/xblacker/gym.xblacker.ir/admin/men/edit.php on line 131
+[26-Jul-2026 22:02:55 Asia/Tehran] PHP Notice:  Array to string conversion in /home/xblacker/gym.xblacker.ir/admin/men/edit.php on line 131
+[02-Aug-2026 21:12:16 Asia/Tehran] PHP Notice:  Array to string conversion in /home/xblacker/gym.xblacker.ir/admin/men/edit.php on line 131
+[17-Aug-2026 16:16:42 Asia/Tehran] PHP Warning:  Array to string conversion in /home/xblacker/gym.xblacker.ir/admin/men/edit.php on line 131

@@ -1,0 +1,10 @@
+[30-Jun-2026 00:40:47 Asia/Tehran] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_hidden' in 'WHERE' in /home/xblacker/gym.xblacker.ir/admin/users/index.php:71
+Stack trace:
+#0 /home/xblacker/gym.xblacker.ir/admin/users/index.php(71): PDO->query('SELECT * FROM u...')
+#1 {main}
+  thrown in /home/xblacker/gym.xblacker.ir/admin/users/index.php on line 71
+[12-Jul-2026 19:08:21 Asia/Tehran] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_hidden' in 'WHERE' in /home/xblacker/gym.xblacker.ir/admin/users/index.php:71
+Stack trace:
+#0 /home/xblacker/gym.xblacker.ir/admin/users/index.php(71): PDO->query('SELECT * FROM u...')
+#1 {main}
+  thrown in /home/xblacker/gym.xblacker.ir/admin/users/index.php on line 71

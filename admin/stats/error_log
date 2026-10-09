@@ -1,0 +1,17 @@
+[12-Jul-2026 21:50:05 Asia/Tehran] PHP Notice:  Array to string conversion in /home/xblacker/gym.xblacker.ir/admin/stats/index.php on line 371
+[12-Jul-2026 21:51:33 Asia/Tehran] PHP Parse error:  syntax error, unexpected end of file in /home/xblacker/gym.xblacker.ir/includes/functions.php on line 75
+[12-Jul-2026 21:51:35 Asia/Tehran] PHP Parse error:  syntax error, unexpected end of file in /home/xblacker/gym.xblacker.ir/includes/functions.php on line 75
+[12-Jul-2026 21:51:37 Asia/Tehran] PHP Parse error:  syntax error, unexpected end of file in /home/xblacker/gym.xblacker.ir/includes/functions.php on line 75
+[12-Jul-2026 21:52:05 Asia/Tehran] PHP Parse error:  syntax error, unexpected end of file in /home/xblacker/gym.xblacker.ir/includes/functions.php on line 75
+[12-Jul-2026 21:52:06 Asia/Tehran] PHP Parse error:  syntax error, unexpected end of file in /home/xblacker/gym.xblacker.ir/includes/functions.php on line 75
+[12-Jul-2026 21:54:19 Asia/Tehran] PHP Fatal error:  Cannot redeclare convert_datetime_to_jalali() (previously declared in /home/xblacker/gym.xblacker.ir/admin/stats/index.php:45) in /home/xblacker/gym.xblacker.ir/includes/functions.php on line 56
+[12-Jul-2026 21:55:58 Asia/Tehran] PHP Notice:  Array to string conversion in /home/xblacker/gym.xblacker.ir/admin/stats/index.php on line 363
+[13-Jul-2026 15:48:38 Asia/Tehran] PHP Notice:  Array to string conversion in /home/xblacker/gym.xblacker.ir/admin/stats/index.php on line 363
+[13-Jul-2026 21:34:53 Asia/Tehran] PHP Notice:  Array to string conversion in /home/xblacker/gym.xblacker.ir/admin/stats/index.php on line 363
+[13-Jul-2026 21:35:01 Asia/Tehran] PHP Notice:  Array to string conversion in /home/xblacker/gym.xblacker.ir/admin/stats/index.php on line 363
+[14-Jul-2026 19:36:13 Asia/Tehran] PHP Notice:  Array to string conversion in /home/xblacker/gym.xblacker.ir/admin/stats/index.php on line 363
+[14-Jul-2026 19:47:44 Asia/Tehran] PHP Notice:  Array to string conversion in /home/xblacker/gym.xblacker.ir/admin/stats/index.php on line 390
+[14-Jul-2026 19:47:46 Asia/Tehran] PHP Notice:  Array to string conversion in /home/xblacker/gym.xblacker.ir/admin/stats/index.php on line 390
+[14-Jul-2026 19:47:46 Asia/Tehran] PHP Notice:  Array to string conversion in /home/xblacker/gym.xblacker.ir/admin/stats/index.php on line 390
+[14-Jul-2026 19:47:54 Asia/Tehran] PHP Notice:  Array to string conversion in /home/xblacker/gym.xblacker.ir/admin/stats/index.php on line 390
+[14-Jul-2026 19:48:20 Asia/Tehran] PHP Notice:  Array to string conversion in /home/xblacker/gym.xblacker.ir/admin/stats/index.php on line 390

@@ -1,0 +1,63 @@
+/* ============================================
+   فونت وزیر (Vazir)
+   ============================================ */
+@font-face {
+    font-family: 'Vazir';
+    src: url('Vazir.woff2') format('woff2'),
+         url('Vazir.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Vazir';
+    src: url('Vazir-Bold.woff2') format('woff2'),
+         url('Vazir-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* ============================================
+   فونت سفیر (Sahel)
+   ============================================ */
+@font-face {
+    font-family: 'Sahel';
+    src: url('Sahel.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sahel';
+    src: url('Sahel-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* ============================================
+   تنظیمات کلی فونت
+   ============================================ */
+*{
+    font-family: 'Vazir', 'Sahel', Tahoma, sans-serif;
+}
+
+:root{
+    font-family: 'Vazir', 'Sahel', Tahoma, sans-serif;
+}
+
+td{
+    font-family: 'Vazir', 'Sahel', Tahoma, sans-serif;
+}
+
+body {
+    font-family: 'Vazir', 'Sahel', Tahoma, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6,
+.btn, button, .header, .sidebar-brand {
+    font-family: 'Vazir', Tahoma, sans-serif;
+}
+
+p, td, th, li, .description, .text-content {
+    font-family: 'Sahel', 'Vazir', Tahoma, sans-serif;
+}

@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سایت در دست تعمیر است</title>
+    <!-- دریافت فونت استاندارد فارسی وزیرمتن -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Vazirmatn', sans-serif;
+        }
+
+        body {
+            background-color: #0a0a0a;
+            color: #ffffff;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            position: relative;
+        }
+
+        /* پس‌زمینه با نور زرد ملایم */
+        .yellow-glow {
+            position: absolute;
+            width: 450px;
+            height: 450px;
+            background: radial-gradient(circle, rgba(250, 204, 21, 0.15) 0%, rgba(0,0,0,0) 70%);
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 0;
+            filter: blur(60px);
+        }
+
+        /* نوار هشدار فوقانی */
+        .hazard-bar {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 6px;
+            background: repeating-linear-gradient(
+                -45deg,
+                #facc15,
+                #facc15 15px,
+                #0a0a0a 15px,
+                #0a0a0a 30px
+            );
+        }
+
+        /* کارت اصلی */
+        .card {
+            position: relative;
+            z-index: 1;
+            background: #141416;
+            border: 1px solid rgba(250, 204, 21, 0.25);
+            padding: 45px 35px;
+            border-radius: 20px;
+            text-align: center;
+            max-width: 550px;
+            width: 90%;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.8), 0 0 20px rgba(250, 204, 21, 0.05);
+        }
+
+        /* آیکون آوار/ابزار */
+        .icon-box {
+            width: 75px;
+            height: 75px;
+            background: rgba(250, 204, 21, 0.1);
+            border: 2px solid #facc15;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 25px auto;
+            color: #facc15;
+            box-shadow: 0 0 15px rgba(250, 204, 21, 0.2);
+        }
+
+        .icon-box svg {
+            width: 38px;
+            height: 38px;
+        }
+
+        h1 {
+            font-size: 1.75rem;
+            margin-bottom: 15px;
+            font-weight: 800;
+            color: #ffffff;
+        }
+
+        h1 span {
+            color: #facc15;
+        }
+
+        p {
+            color: #a1a1aa;
+            font-size: 0.98rem;
+            line-height: 1.8;
+            margin-bottom: 30px;
+        }
+
+        /* نشانگر آخرین به‌روزرسانی */
+        .last-update {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: rgba(255, 255, 255, 0.04);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 8px 16px;
+            border-radius: 30px;
+            font-size: 0.85rem;
+            color: #d4d4d8;
+            margin-bottom: 30px;
+        }
+
+        .last-update-dot {
+            width: 8px;
+            height: 8px;
+            background-color: #facc15;
+            border-radius: 50%;
+            box-shadow: 0 0 8px #facc15;
+        }
+
+        /* بخش ارتباط با ادمین */
+        .admin-contact {
+            border-top: 1px dashed rgba(255, 255, 255, 0.12);
+            padding-top: 25px;
+            margin-top: 10px;
+        }
+
+        .admin-text {
+            font-size: 0.9rem;
+            color: #e4e4e7;
+            margin-bottom: 18px;
+        }
+
+        .admin-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 12px 22px;
+            border-radius: 12px;
+            font-weight: 700;
+            font-size: 0.9rem;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .btn-primary {
+            background-color: #facc15;
+            color: #000000;
+        }
+
+        .btn-primary:hover {
+            background-color: #eab308;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(250, 204, 21, 0.3);
+        }
+
+        .btn-secondary {
+            background-color: transparent;
+            color: #facc15;
+            border: 1px solid #facc15;
+        }
+
+        .btn-secondary:hover {
+            background-color: rgba(250, 204, 21, 0.1);
+            transform: translateY(-2px);
+        }
+
+        @media (max-width: 480px) {
+            .card { padding: 35px 20px; }
+            .btn { width: 100%; justify-content: center; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="hazard-bar"></div>
+    <div class="yellow-glow"></div>
+
+    <div class="card">
+        <!-- آیکون آوار / تعمیرات -->
+        <div class="icon-box">
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M11.42 15.17L17.25 21A2.652 2.652 0 0021 17.25l-5.83-5.83M11.42 15.17l2.496-3.03c.317-.384.74-.626 1.208-.766M11.42 15.17l-4.655 5.653a2.548 2.548 0 11-3.586-3.586l5.654-4.654m0 0l-3.03-2.496a2.25 2.25 0 01-.766-1.208M11.42 9.87l5.83-5.83a2.652 2.652 0 013.75 3.75l-5.83 5.83"></path>
+            </svg>
+        </div>
+
+        <h1>سایت در دست <span>تعمیر</span> است</h1>
+        
+        <p>
+            ما در حال به‌روزرسانی و ارتقای بخش‌های مختلف وب‌سایت هستیم تا خدمات بهتری ارائه دهیم. از شکیبایی شما سپاسگزاریم.
+        </p>
+
+        <!-- آخرین به‌روزرسانی (تاریخ شمسی + ساعت) -->
+        <div class="last-update">
+            <span class="last-update-dot"></span>
+            <span>آخرین به‌روزرسانی: <strong id="shamsi-date">در حال دریافت...</strong></span>
+        </div>
+
+        <!-- ارتباط با ادمین -->
+        <div class="admin-contact">
+            <div class="admin-text">در صورت نیاز به هماهنگی یا سوال، با ادمین در ارتباط باشید:</div>
+            <div class="admin-buttons">
+                <!-- آدرس تلگرام خود را جایگزین کنید -->
+                <a href="https://t.me/Cactu3e" class="btn btn-primary" target="_blank">
+                    ارتباط در تلگرام
+                </a>
+                <!-- ایمیل یا شماره تماس خود را جایگزین کنید -->
+                <a href="mailto:admin@example.com" class="btn btn-secondary">
+                    ارسال ایمیل
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // محاسبه و نمایش خودکار تاریخ شمسی و ساعت
+        function setShamsiDate() {
+            const now = new Date();
+            
+            // تبدیل به تاریخ شمسی با فرمت فارسی
+            const dateOptions = { year: 'numeric', month: 'long', day: 'numeric' };
+            const timeOptions = { hour: '2-digit', minute: '2-digit', hour12: false };
+            
+            const shamsiDate = new Intl.DateTimeFormat('fa-IR', dateOptions).format(now);
+            const shamsiTime = new Intl.DateTimeFormat('fa-IR', timeOptions).format(now);
+
+            document.getElementById('shamsi-date').innerText = `${shamsiDate} - ساعت ${shamsiTime}`;
+        }
+
+        // اجرا هنگام بارگذاری
+        setShamsiDate();
+    </script>
+</body>
+</html>

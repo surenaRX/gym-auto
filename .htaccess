@@ -1,0 +1,14 @@
+SetEnv TZ Asia/Tehran
+
+#<IfModule mod_rewrite.c>
+#    RewriteEngine On
+    
+    # تنظیم کد ۵۰۳ برای جلوگیری از افت سئو در گوگل
+#    ErrorDocument 503 /maintenance.html
+    
+    # جلوگیری از ایجاد حلقه هدایت (Loop) روی خود فایل maintenance.html
+#    RewriteCond %{REQUEST_URI} !^/maintenance\.html$ [NC]
+    
+    # هدایت تمامی صفحات و پوشه‌ها
+#    RewriteRule .* - [R=503,L]
+#</IfModule>

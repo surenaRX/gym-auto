@@ -1,0 +1,24 @@
+[25-Jun-2026 02:38:43 Asia/Tehran] PHP Fatal error:  Uncaught PDOException: There is no active transaction in /home/xblacker/gym.xblacker.ir/admin/members/add.php:130
+Stack trace:
+#0 /home/xblacker/gym.xblacker.ir/admin/members/add.php(130): PDO->rollBack()
+#1 {main}
+  thrown in /home/xblacker/gym.xblacker.ir/admin/members/add.php on line 130
+[25-Jun-2026 02:55:58 Asia/Tehran] PHP Fatal error:  Uncaught PDOException: There is no active transaction in /home/xblacker/gym.xblacker.ir/admin/members/add.php:130
+Stack trace:
+#0 /home/xblacker/gym.xblacker.ir/admin/members/add.php(130): PDO->rollBack()
+#1 {main}
+  thrown in /home/xblacker/gym.xblacker.ir/admin/members/add.php on line 130
+[25-Jun-2026 11:41:28 Asia/Tehran] PHP Notice:  Array to string conversion in /home/xblacker/gym.xblacker.ir/admin/members/add.php on line 102
+[25-Jun-2026 11:44:31 Asia/Tehran] PHP Notice:  Array to string conversion in /home/xblacker/gym.xblacker.ir/admin/members/add.php on line 102
+[25-Jun-2026 11:49:17 Asia/Tehran] PHP Notice:  Array to string conversion in /home/xblacker/gym.xblacker.ir/admin/members/add.php on line 113
+[25-Jun-2026 11:52:43 Asia/Tehran] PHP Notice:  Array to string conversion in /home/xblacker/gym.xblacker.ir/admin/members/add.php on line 114
+[25-Jun-2026 12:12:06 Asia/Tehran] PHP Notice:  Array to string conversion in /home/xblacker/gym.xblacker.ir/admin/members/add.php on line 117
+[25-Jun-2026 12:15:19 Asia/Tehran] PHP Notice:  Array to string conversion in /home/xblacker/gym.xblacker.ir/admin/members/add.php on line 117
+[27-Jun-2026 00:14:00 Asia/Tehran] PHP Notice:  Array to string conversion in /home/xblacker/gym.xblacker.ir/admin/members/add.php on line 117
+[28-Jun-2026 22:23:56 Asia/Tehran] PHP Notice:  Array to string conversion in /home/xblacker/gym.xblacker.ir/admin/members/add.php on line 117
+[29-Jun-2026 01:12:02 Asia/Tehran] PHP Notice:  Array to string conversion in /home/xblacker/gym.xblacker.ir/admin/members/add.php on line 117
+[29-Jun-2026 01:16:21 Asia/Tehran] PHP Notice:  Array to string conversion in /home/xblacker/gym.xblacker.ir/admin/members/add.php on line 117
+[19-Jul-2026 19:00:43 Asia/Tehran] PHP Notice:  Undefined offset: 2 in /home/xblacker/gym.xblacker.ir/includes/functions.php on line 24
+[19-Jul-2026 19:00:43 Asia/Tehran] PHP Warning:  A non-numeric value encountered in /home/xblacker/gym.xblacker.ir/includes/jdf.php on line 623
+[19-Jul-2026 19:00:43 Asia/Tehran] PHP Notice:  Undefined offset: 2 in /home/xblacker/gym.xblacker.ir/includes/functions.php on line 36
+[19-Jul-2026 19:00:43 Asia/Tehran] PHP Warning:  A non-numeric value encountered in /home/xblacker/gym.xblacker.ir/includes/jdf.php on line 623
